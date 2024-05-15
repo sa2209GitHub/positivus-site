@@ -1,0 +1,13 @@
+{
+	"name": "positivus-site",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"watch": "./node_modules/sass/sass.js  ./sass/main.scss ./styles/style.css --style=compressed --watch"
+	},
+	"author": "Sergey Arkhangelskiy <sergey.arkhangelskiy@gmail.com>",
+	"license": "MIT",
+	"devDependencies": {
+		"sass": "^1.77.1"
+	}
+}
