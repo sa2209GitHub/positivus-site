@@ -1,0 +1,9 @@
+@charset 'urtf-8';
+
+.services {
+	&__list {
+		&:not(:last-child) {
+			margin-bottom: 100px;
+		}
+	}
+}

@@ -1,7 +1,7 @@
 @charset 'utf-8';
 
 @mixin fluid-text($max: 48, $min: 16) {
-	font-size: clamp(#{$min}px, #{$max / 1440 * 100}vw, #{$max});
+	font-size: clamp(#{$min}px, #{$max / 1440 * 100}vw, #{$max}px);
 }
 
 @mixin reset-link {
@@ -19,7 +19,7 @@
 	border: none;
 }
 
-@mixin flex-center($isInline: fale) {
+@mixin flex-center($isInline: false) {
 	@if $isInline {
 		display: inline-flex;
 	} @else {
